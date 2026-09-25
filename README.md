@@ -1,6 +1,6 @@
 # David Garcia — résumé website
 
-A concise portfolio in a one-page résumé layout, built with plain HTML and CSS.
+A minimal, single-screen résumé and portfolio built with plain HTML and CSS.
 
 ## Local preview
 

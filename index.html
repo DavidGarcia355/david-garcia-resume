@@ -3,47 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="David Garcia — AI development, cybersecurity, and software projects.">
-  <title>David Garcia | Portfolio</title>
+  <meta name="description" content="David Garcia — résumé, experience, projects, and contact information.">
+  <title>David Garcia | Résumé</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
-    <header class="header">
+  <main class="resume">
+    <header>
       <h1>David Garcia</h1>
-      <p class="role">AI Development Intern · Cybersecurity Graduate · Applied AI M.S. Student · CompTIA Security+</p>
-      <div class="links" aria-label="Contact and profiles">
-        <a href="mailto:davidsgarcia325@gmail.com">Email</a>
-        <a href="tel:+12196286054">Phone</a>
-        <a href="https://www.linkedin.com/in/david-garcia-78b93328a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://github.com/DavidGarcia355" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="resume.pdf" target="_blank" rel="noopener">Résumé PDF</a>
-      </div>
-      <p class="location">Greater Chicago Area · <a href="mailto:davidsgarcia325@gmail.com">davidsgarcia325@gmail.com</a> · <a href="tel:+12196286054">(219) 628-6054</a></p>
+      <p>AI Development Intern · Cybersecurity Graduate · M.S. Applied AI Student · CompTIA Security+</p>
+      <p>Greater Chicago Area · <a href="mailto:davidsgarcia325@gmail.com">davidsgarcia325@gmail.com</a> · <a href="tel:+12196286054">(219) 628-6054</a></p>
+      <nav aria-label="Profile links"><a href="https://www.linkedin.com/in/david-garcia-78b93328a/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/DavidGarcia355" target="_blank" rel="noopener noreferrer">GitHub</a><a href="resume.pdf" target="_blank" rel="noopener">Résumé PDF</a></nav>
     </header>
 
-    <section aria-labelledby="about-title">
-      <h2 id="about-title">About</h2>
-      <p>Cybersecurity &amp; Computer Information Technology graduate from Purdue University Northwest, now pursuing an M.S. in Applied Artificial Intelligence. My work includes a production AI chatbot, security automation projects, and Habla, a SaaS platform for classroom speaking practice.</p>
+    <section aria-labelledby="experience"><h2 id="experience">Experience</h2>
+      <article class="entry"><div class="entry-head"><h3>AI Development Intern <span>— American Identity Group</span></h3><time>2026</time></div>
+        <ul><li>Built a production RAG-based identity-theft triage chatbot using Python, Flask, Gemini API, and an internal knowledge base.</li><li>Implemented structured responses, PII redaction, escalation logic, SQLite case documentation, and automated evaluation.</li></ul>
+      </article>
+      <article class="entry"><div class="entry-head"><h3>Founder &amp; Full-Stack Developer <span>— <a href="https://tryhabla.com/" target="_blank" rel="noopener noreferrer">TryHabla.com</a></span></h3><time>2024–Present</time></div>
+        <ul><li>Founded and launched a speaking-practice SaaS for teachers and students.</li><li>Built classroom workflows, browser recording submissions, AI-assisted grading, CSV gradebook export, admin analytics, and production infrastructure.</li></ul>
+      </article>
     </section>
 
-    <section aria-labelledby="work-title">
-      <h2 id="work-title">Selected work</h2>
-      <div class="row"><div><h3>Habla</h3><p>Speaking-practice and AI-assisted grading platform for teachers and students.</p></div><a href="https://tryhabla.com/" target="_blank" rel="noopener noreferrer">Live site ↗</a></div>
-      <div class="row"><div><h3>UberCuts</h3><p>Barber discovery and booking MVP.</p></div><a href="https://github.com/DavidGarcia355/UberCuts" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
-      <div class="row"><div><h3>Sonder Barbershop</h3><p>One-page barbershop website and booking demo.</p></div><a href="https://davidgarcia355.github.io/sonder-barbershop-website/" target="_blank" rel="noopener noreferrer">Live demo ↗</a></div>
-      <div class="row"><div><h3>TriageAI</h3><p>Local AI-assisted dashboard for security alert triage.</p></div><a href="https://github.com/DavidGarcia355/TriageAI" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
-    </section>
+    <div class="columns">
+      <section aria-labelledby="education"><h2 id="education">Education &amp; certification</h2>
+        <div class="item"><strong>M.S. Applied Artificial Intelligence</strong><span>Purdue University Northwest · Expected 2027</span></div>
+        <div class="item"><strong>B.S. Cybersecurity &amp; Computer Information Technology</strong><span>Purdue University Northwest · 2026</span></div>
+        <div class="item"><strong>CompTIA Security+</strong><span>Certified</span></div>
+      </section>
+      <section aria-labelledby="projects"><h2 id="projects">Personal projects</h2>
+        <div class="item"><strong><a href="https://github.com/DavidGarcia355/TriageAI" target="_blank" rel="noopener noreferrer">TriageAI ↗</a></strong><span>Local AI-assisted SOC dashboard</span></div>
+        <div class="item"><strong><a href="https://github.com/DavidGarcia355/azure-sentinel-rdp-detection-lab" target="_blank" rel="noopener noreferrer">Azure Sentinel Detection Lab ↗</a></strong><span>RDP alert pipeline and KQL detection</span></div>
+        <div class="item"><strong><a href="https://github.com/DavidGarcia355/phishing-email-detection-ml" target="_blank" rel="noopener noreferrer">Phishing Email Detection ↗</a></strong><span>Machine-learning email classifier</span></div>
+      </section>
+    </div>
 
-    <section aria-labelledby="background-title">
-      <h2 id="background-title">Background</h2>
-      <div class="row compact"><div><h3>AI Development Intern</h3><p>American Identity Group</p></div><span>2026</span></div>
-      <div class="row compact"><div><h3>Founder &amp; Full-Stack Developer</h3><p>Habla</p></div><span>2024–Present</span></div>
-      <div class="row compact"><div><h3>M.S. Applied Artificial Intelligence</h3><p>Purdue University Northwest</p></div><span>Expected 2027</span></div>
-      <div class="row compact"><div><h3>B.S. Cybersecurity &amp; Computer Information Technology</h3><p>Purdue University Northwest</p></div><span>2026</span></div>
-    </section>
-
-    <section aria-labelledby="skills-title" class="skills"><h2 id="skills-title">Skills</h2><p>Python · JavaScript · TypeScript · React · Next.js · Flask · RAG · LLM integrations · SQL · Microsoft Sentinel · Wazuh · Azure</p></section>
+    <section class="skills" aria-labelledby="skills"><h2 id="skills">Skills</h2><p>Python · JavaScript · TypeScript · Next.js · Flask · RAG · LLM integration · SQL · Azure · Microsoft Sentinel · Wazuh · OpenSearch</p></section>
   </main>
 </body>
 </html>
